@@ -165,7 +165,7 @@ i#logo{
   }
   #date-container{
           font-size: small;
-      margin-top: 19.5em;
+      /*margin-top: 19.5em;*/
       -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
       -moz-box-sizing: border-box;    /* Firefox, other Gecko */
       box-sizing: border-box;
@@ -210,7 +210,11 @@ i#logo{
     }
 }
 */
-
+#img-container  .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
 
 .row {
   margin-left: 0px;
