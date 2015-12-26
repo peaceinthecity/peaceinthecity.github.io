@@ -108,6 +108,10 @@ a.link{
   margin: 3em 0em;
 }
 
+#email{
+
+}
+
 #ikidsregister{
   font-weight: 500;
 }
@@ -166,6 +170,11 @@ i#logo{
       -moz-box-sizing: border-box;    /* Firefox, other Gecko */
       box-sizing: border-box;
   }
+
+    #email{
+         font-size: 0.81em;
+   }
+
  }
 
 @media screen and (min-width: 991px) {
