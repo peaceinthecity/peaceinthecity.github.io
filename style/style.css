@@ -1,3 +1,31 @@
+html,body,div,span,applet,object,iframe,h1,h2,
+
+  h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,
+
+  big,cite,del,dfn,em,img,ins,kbd,q,s,samp,small,
+
+  strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,
+
+  dd,ol,ul,li,fieldset,form,label,legend,table,caption,
+
+  tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+
+  embed,figure,figcaption,footer,header,hgroup,input,menu,
+
+  nav,output,ruby,section,summary,time,mark,audio,video {
+
+    border: 0;
+
+    margin: 0;
+
+    padding: 0;
+
+    vertical-align: baseline;
+
+  }
+
+
+
 /*************** 
    Header
 ***************/
@@ -110,24 +138,33 @@ i#logo{
 
 }
 
-
+#tel{
+  margin-top: 4px;
+}
 
 #date-container{
   margin-top: 3.5em;
+ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
 }
 
 /*************** 
    Media Query
 ***************/
 
-@media screen and (max-width: 911px) {
+@media screen and (max-width: 991px) {
   .date-time{
      /*margin-top: 12em;*/
        /*  font-size: 1.5em;*/
 
   }
   #date-container{
+      
       margin-top: 19.5em;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;
   }
  }
 
