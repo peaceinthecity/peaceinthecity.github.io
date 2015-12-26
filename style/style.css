@@ -164,7 +164,7 @@ i#logo{
 
   }
   #date-container{
-      
+          font-size: small;
       margin-top: 19.5em;
       -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
       -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -190,6 +190,26 @@ i#logo{
       
     }
 }
+
+
+/*@media all and (max-device-width: 720px){
+    #date-container {
+        font-size: 18px;
+    }
+}
+*/
+/*@media all and (max-device-width: 640px){
+    #date-container {
+        font-size: 16px;
+    }
+}*/
+
+/*@media all and (max-device-width: 320px){
+    #date-container {
+            font-size: small;
+    }
+}
+*/
 
 
 .row {
