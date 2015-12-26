@@ -16,6 +16,15 @@
   margin: 0px auto;
 }
 
+.text-header{  
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  margin: 0px 0px 21px 0px;
+  margin-left: 1%;
+}
+
+
 /*************** 
    Section
 ***************/
@@ -40,17 +49,20 @@
   margin: 0px 0px 21px 0px;
 }
 
+
 .date-time{
   color: white;
   padding: 0px;
   margin: 0px;
-  margin-top: 3em;
+  margin-top: 0.1em;
   letter-spacing: 0.06em;
-  /*font-weight: ;*/
+  /*Paul Tripp*/
+    font-weight: 500;
+    font-size: 1.15em;
 }
 
 .name{
-    color: red;
+    color: #ee3c3c;
     margin-top: 3px;
     margin-bottom: 0.7em;
     letter-spacing: 0.05em;
@@ -58,7 +70,7 @@
 }
 
 a.link{
-  color: red;
+  color: #ee3c3c;
   font-weight: 300;
   letter-spacing: 0.1em;
 }
@@ -67,6 +79,11 @@ a.link{
 
   margin: 3em 0em;
 }
+
+#ikidsregister{
+  font-weight: 500;
+}
+
 /*************** 
    Footer
 ***************/
@@ -89,28 +106,41 @@ i#logo{
 }
 /* Map */
 
-.map {
-    height: 500px;
+#map {
+
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
+
+
+#date-container{
+  margin-top: 3.5em;
 }
+
 /*************** 
    Media Query
 ***************/
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 911px) {
   .date-time{
-     margin-top: 12em;
+     /*margin-top: 12em;*/
+       /*  font-size: 1.5em;*/
+
+  }
+  #date-container{
+      margin-top: 19.5em;
   }
  }
 
 @media screen and (min-width: 991px) {
   #s-b-img{
+    -webkit-margin-top:27em;
+    -o-margin-top:27em;
+    -moz-margin-top:27em;
      margin-top: 27em;
   }
 }
-
+@media(max-width:768px) {
+    .map {
+      
+    }
+}
